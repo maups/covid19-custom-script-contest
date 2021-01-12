@@ -8,12 +8,12 @@ Training and inference code of our awarded submission to the [COVID-19 Custom Sc
 
 ## Authors
 
-- Mauricio Pamplona Segundo
-- Rodrigo Minetto
-- Cole Hill
-- Allan Pinto
-- Ricardo Da Silva Torres
-- Sudeep Sarkar
+- Mauricio Pamplona Segundo ([USF](https://www.usf.edu/))
+- Rodrigo Minetto ([UTFPR](http://www.utfpr.edu.br/))
+- Allan Pinto ([UNICAMP](https://www.unicamp.br/))
+- Cole Hill ([USF](https://www.usf.edu/))
+- Ricardo Da Silva Torres ([NTNU](https://www.ntnu.edu/))
+- Sudeep Sarkar ([USF](https://www.usf.edu/))
 
 ## Data availability
 
