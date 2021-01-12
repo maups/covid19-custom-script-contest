@@ -16,7 +16,7 @@ import os
 output_folder = './images'
 
 # time interval
-time_interval = ('2020-07-01', '2020-12-31')
+time_interval = ('2015-01-01', '2020-07-31')
 
 # AOIs names and geographic coordinates (latitude, longitude)
 aoi_names = ['AGP','AMS','ARN','ATH','BCN','BRU','CDG','CPH','DUB','DUS','FCO','FRA','HEL','IST','LGW','LHR','LIS','LTN','MAD','MAN','MUC','MXP','ORY','OSL','PMI','STN','TXL','VIE','WAW','ZRH']
