@@ -73,6 +73,11 @@ $ python3 train.py
 
 This will use the annotations available in this repository to train a new detection model. Make sure you rename the model name on `inference.py` to use your own model for inference.
 
+### Time series analysis
+
+To performe the airports' activity analysis by detecting the breaking points related to COVID-19 and the recovery rate of the monitored airports please follow the instructions available in [covid19-airports-activity-analysis/README.md](covid19-airports-activity-analysis/README.md)
+
+
 ## Citing
 
 If you find the code in this repository useful in your research, please consider citing:

@@ -1,0 +1,3 @@
+[submodule "covid19-airports-activity-analysis"]
+	path = covid19-airports-activity-analysis
+	url = https://github.com/allansp84/covid19-airports-activity-analysis.git
