@@ -75,7 +75,7 @@ This will use the annotations available in this repository to train a new detect
 
 ### Time series analysis
 
-To performe the airports' activity analysis by detecting the breaking points related to COVID-19 and the recovery rate of the monitored airports please follow the instructions available in [covid19-airports-activity-analysis/README.md](covid19-airports-activity-analysis/README.md)
+To performe the airports' activity analysis by detecting the breaking points related to COVID-19 and the recovery rate of the monitored airports please follow the instructions available in [covid19-airports-activity-analysis/README.md](https://github.com/allansp84/covid19-airports-activity-analysis.git)
 
 
 ## Citing
