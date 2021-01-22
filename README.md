@@ -1,17 +1,16 @@
-# Measuring Airport Activity from Sentinel-2 Imagery to Support Decision-Making during COVID-19 Pandemic
+# Measuring economic activity from space: a case study using flying airplanes and COVID-19
 
-Training and inference code of our awarded submission to the [COVID-19 Custom Script Upscaling Contest](https://eo4society.esa.int/2020/04/24/from-the-covid-19-custom-script-contest-to-the-euro-data-cube-european-dashboard/), lauched by the European Space Agency (ESA) in coordination with the European Commission and managed by Euro Data Cube group.
+This work introduces a novel solution to measure economic activity through remote sensing to monitor a wide range of spatial areas. We hypothesized that disturbances in human behavior caused by major life-changing events leave signatures in satellite imagery that allows devising relevant image-based indicators to estimate their impacts and support decision-makers. We present a case study for the COVID-19 coronavirus outbreak, which imposed severe mobility restrictions and caused worldwide disruptions, using flying airplane detection around the 30 busiest airports in Europe to quantify and analyze the lockdown's effects and post-lockdown recovery.  Our solution won the [Rapid Action Coronavirus Earth observation (RACE) upscaling challenge](https://eo4society.esa.int/2020/04/24/from-the-covid-19-custom-script-contest-to-the-euro-data-cube-european-dashboard/), sponsored by the European Space Agency and the European Commission, and now integrates the [RACE dashboard](https://race.esa.int/?indicator=E13d). This platform combines satellite data and artificial intelligence to promote a progressive and safe reopening of essential activities.
 
 ## Awards
 
-- [Best contribution (super-prize)](https://medium.com/sentinel-hub/race-upscaling-competition-results-8a339bb8c942)
+- [Best contribution (super-prize)](https://medium.com/sentinel-hub/race-upscaling-competition-results-8a339bb8c942) -- RACE upscaling challenge
 
 ## Authors
 
 - Mauricio Pamplona Segundo ([USF](https://www.usf.edu/))
-- Rodrigo Minetto ([UTFPR](http://www.utfpr.edu.br/))
 - Allan Pinto ([UNICAMP](https://www.unicamp.br/))
-- Cole Hill ([USF](https://www.usf.edu/))
+- Rodrigo Minetto ([UTFPR](http://www.utfpr.edu.br/))
 - Ricardo Da Silva Torres ([NTNU](https://www.ntnu.edu/))
 - Sudeep Sarkar ([USF](https://www.usf.edu/))
 
@@ -82,5 +81,5 @@ To perform the airports' activity analysis by detecting the breaking points rela
 
 If you find the code in this repository useful in your research, please consider citing:
 ```
-TODO
+TBD
 ```
