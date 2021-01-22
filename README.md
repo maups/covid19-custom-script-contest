@@ -37,7 +37,7 @@ The second option is to download the data from our institutional repository. The
 | BCN.zip (18.9 GB) | FCO.zip (20.6 GB) | LIS.zip (27.0 GB) | ORY.zip (14.7 GB) | WAW.zip (16.2 GB) |
 | BRU.zip (14.2 GB) | FRA.zip (9.1 GB) | LTN.zip (9.8 GB) | OSL.zip (12.4 GB) | ZRH.zip (18.6 GB) |
 
-These files will be made available upon request to the e-mail `mauriciop@usf.edu`. Requesters will be granted one month of access to download the aforementioned files.
+These files will be made available upon request to the e-mail `mauriciop@usf.edu`. Requesters will be granted one month of access to download the aforementioned files. All these files contain modified Sentinel-2 data processed by Euro Data Cube.
 
 ## Usage instructions
 
