@@ -1,6 +1,6 @@
 # Measuring economic activity from space: a case study using flying airplanes and COVID-19
 
-This work introduces a novel solution to measure economic activity through remote sensing to monitor a wide range of spatial areas. We hypothesized that disturbances in human behavior caused by major life-changing events leave signatures in satellite imagery that allows devising relevant image-based indicators to estimate their impacts and support decision-makers. We present a case study for the COVID-19 coronavirus outbreak, which imposed severe mobility restrictions and caused worldwide disruptions, using flying airplane detection around the 30 busiest airports in Europe to quantify and analyze the lockdown's effects and post-lockdown recovery.  Our solution won the [Rapid Action Coronavirus Earth observation (RACE) upscaling challenge](https://eo4society.esa.int/2020/04/24/from-the-covid-19-custom-script-contest-to-the-euro-data-cube-european-dashboard/), sponsored by the European Space Agency and the European Commission, and now integrates the [RACE dashboard](https://race.esa.int/?indicator=E13d). This platform combines satellite data and artificial intelligence to promote a progressive and safe reopening of essential activities.
+This work introduces a novel solution to measure economic activity through remote sensing for a wide range of spatial areas. We hypothesized that disturbances in human behavior caused by major life-changing events leave signatures in satellite imagery that allows devising relevant image-based indicators to estimate their impacts and support decision-makers. We present a case study for the COVID-19 coronavirus outbreak, which imposed severe mobility restrictions and caused worldwide disruptions, using flying airplane detection around the 30 busiest airports in Europe to quantify and analyze the lockdown's effects and post-lockdown recovery. Our solution won the [Rapid Action Coronavirus Earth observation (RACE) upscaling challenge](https://eo4society.esa.int/2020/04/24/from-the-covid-19-custom-script-contest-to-the-euro-data-cube-european-dashboard/), sponsored by the European Space Agency and the European Commission, and now integrates the [RACE dashboard](https://race.esa.int/?indicator=E13d). This platform combines satellite data and artificial intelligence to promote a progressive and safe reopening of essential activities. 
 
 ## Awards
 
@@ -81,5 +81,12 @@ To perform the airports' activity analysis by detecting the breaking points rela
 
 If you find the code in this repository useful in your research, please consider citing:
 ```
-TBD
+@misc{segundo2021measuring,
+      title={Measuring economic activity from space: a case study using flying airplanes and COVID-19}, 
+      author={Mauricio Pamplona Segundo and Allan Pinto and Rodrigo Minetto and Ricardo da Silva Torres and Sudeep Sarkar},
+      year={2021},
+      eprint={2104.10345},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
