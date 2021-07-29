@@ -16,7 +16,7 @@ This work introduces a novel solution to measure economic activity through remot
 
 ## Data availability
 
-There are two ways of obtaining the data employed in this research. The first one is through a [Sentinel Hub account](https://www.sentinel-hub.com/) by using the script `download.py` . Make sure you update the following variables with your Sentinel Hub credentials:
+There are three ways of obtaining the data employed in this research. The first one is through a [Sentinel Hub account](https://www.sentinel-hub.com/) by using the script `download.py` . Make sure you update the following variables with your Sentinel Hub credentials:
 
 ```python
 config.instance_id = '***REMOVED***'
@@ -26,7 +26,11 @@ config.sh_client_secret = '***REMOVED***'
 
 These credentials can be obtained in the [Sentinel Hub dashboard](https://apps.sentinel-hub.com/dashboard/).
 
-The second option is to download the data from our institutional repository. The data consistis of one zip file for all cloud probability masks from all airports (cloud_masks.zip (11.8 GB)) and one zip file per airport with color images and valid pixel masks as follows:
+The second option is to download the data from [IEEE Dataport](https://dx.doi.org/10.21227/3mbt-tb11).
+
+The third option is to download the data from our institutional repository.
+
+The last two options consist of one tar/zip file for all cloud probability masks from all airports (cloud_masks.zip (11.8 GB)) and one tar/zip file per airport with color images and valid pixel masks as follows:
 
 | file (size) | file (size) | file (size) | file (size) | file (size) |
 |---|---|---|---|---|
@@ -37,7 +41,9 @@ The second option is to download the data from our institutional repository. The
 | BCN.zip (18.9 GB) | FCO.zip (20.6 GB) | LIS.zip (27.0 GB) | ORY.zip (14.7 GB) | WAW.zip (16.2 GB) |
 | BRU.zip (14.2 GB) | FRA.zip (9.1 GB) | LTN.zip (9.8 GB) | OSL.zip (12.4 GB) | ZRH.zip (18.6 GB) |
 
-These files will be made available upon request to the e-mail `mauriciop@usf.edu`. Requesters will be granted one month of access to download the aforementioned files. All these files contain modified Sentinel-2 data processed by Euro Data Cube. If you use any of these images for any kind of media (publications, reports, videos, etc), please add the message "Contain modified Sentinel-2 data processed by Euro Data Cube" close to the image.
+Access to the institutional repository will be made available upon request to the e-mail `mauriciop@usf.edu`. Requesters will be granted one month of access to download the aforementioned files.
+
+All the files in our dataset contain modified Sentinel-2 data processed by Euro Data Cube. If you use any of these images for any kind of media (publications, reports, videos, etc), please add the message "Contain modified Sentinel-2 data processed by Euro Data Cube" close to the image.
 
 ## Usage instructions
 
@@ -79,14 +85,25 @@ To perform the airports' activity analysis by detecting the breaking points rela
 
 ## Citing
 
-If you find the code in this repository useful in your research, please consider citing:
+If you find the code and data in this repository useful in your research, please consider citing:
 ```
-@misc{segundo2021measuring,
-      title={Measuring economic activity from space: a case study using flying airplanes and COVID-19}, 
-      author={Mauricio Pamplona Segundo and Allan Pinto and Rodrigo Minetto and Ricardo da Silva Torres and Sudeep Sarkar},
-      year={2021},
-      eprint={2104.10345},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@ARTICLE{9472964,
+author={Pamplonasegundo, Mauricio and Pinto, Allan and Minetto, Rodrigo and Torres, Ricardo da S. and Sarkar, Sudeep},
+journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+title={Measuring economic activity from space: a case study using flying airplanes and COVID-19}, 
+year={2021},
+volume={},
+number={},
+pages={1-1},
+doi={10.1109/JSTARS.2021.3094053}
 }
+
+@data{3mbt-tb11-21,
+doi={10.21227/3mbt-tb11},
+url={https://dx.doi.org/10.21227/3mbt-tb11},
+author={Pamplona Segundo, Mauricio and Pinto, Allan and Minetto, Rodrigo and da Silva Torres, Ricardo and Sarkar, Sudeep},
+publisher={IEEE Dataport},
+title={A dataset for detecting flying airplanes on satellite images},
+year={2021}
+} 
 ```
